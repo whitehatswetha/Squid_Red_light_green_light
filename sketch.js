@@ -70,7 +70,7 @@ function setup() {
 function draw() {
 
   if(!bgSound.isPlaying()){
-   // bgSound.play();
+    bgSound.play();
     bgSound.setVolume(0.1);  
   }
   if(gameState=="wait") {
@@ -163,9 +163,9 @@ function reset(){
 function playGame(){
  // console.log("play")
   gameState="play";
-  timeElapsed=0;
   //start timer
   startTime= new Date().getTime();
+  timeElapsed=0;
 }
 
 //Counting time in seconds
