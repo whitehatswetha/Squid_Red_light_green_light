@@ -163,6 +163,7 @@ function reset(){
 function playGame(){
  // console.log("play")
   gameState="play";
+  timeElapsed=0;
   //start timer
   startTime= new Date().getTime();
 }
