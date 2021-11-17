@@ -9,7 +9,7 @@ var char, charImg, charAnim;
 var dollState="back";
 
 //To store the state of the game
-var gameState = "play";
+var gameState = "wait";
 
 var isPlayerMoving=false;
 var winSound,loseSound,bgSound;
